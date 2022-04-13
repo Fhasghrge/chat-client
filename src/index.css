@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@layer components {
+  .action-btn {
+    @apply py-1 px-3 rounded text-gray-300 bg-indigo-600 opacity-60 hover:opacity-100
+  }
+  .dialog-form  .MuiPaper-root{
+    @apply bg-gray-300 text-gray-700 text-sm p-0;
+  }
+}
+@tailwind utilities;

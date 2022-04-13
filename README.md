@@ -1,0 +1,2 @@
+- [ ] memoize Component
+- [ ] cache request
