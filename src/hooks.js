@@ -38,7 +38,7 @@ const useSocket = (user, dispatch) => {
       if (socket !== null) {
         socket.connect();
       } else {
-        socketRef.current = io();
+        socketRef.current = io('ws://localhost:4000');
       }
       setConnected(true);
     }

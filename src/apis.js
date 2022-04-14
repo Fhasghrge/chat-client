@@ -3,7 +3,7 @@ axios.defaults.withCredentials = true;
 
 export const MESSAGES_TO_LOAD = 15;
 
-axios.defaults.baseURL = '/api'
+axios.defaults.baseURL = 'http://localhost:4000/api'
 
 export const register = (username, password, email) => {
   return axios.post('/register', {
